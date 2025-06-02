@@ -1,4 +1,4 @@
-num1 = input ('numero 1: ')
-num2 = input('numero 2:')
-
-print(num1 + num2)
+num1 = int(input('numero 1: '))
+num2 = int(input('numero 2:'))
+soma = (num1 + num2)
+print(soma)
