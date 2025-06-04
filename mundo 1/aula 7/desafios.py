@@ -22,10 +22,47 @@
 
 # EXERCICIO 8 FEITO #######
 
-#n1 = float(input('escreva um numero:'))
-#s = n1 * 100
-#print('{} metros, fica {} em cemtimetros'.format(n1, s))
+# n1 = float(input('escreva um numero:'))
+# s = n1 * 100
+# print('{} metros, fica {} em cemtimetros'.format(n1, s))
 
-# EXERCICIO 9 
+# EXERCICIO 9 FEITO ########
+
+# n1 = int(input('escreva um numero: '))
+# t1 = n1 * 1
+# t2 = n1 * 2
+# t3 = n1 * 3
+# print('{} x 1 ={}'.format(n1, t1))
+# print('{} x 2 = {}'.format(n1,  t2))
+# print('{} x 3 = {}'.format(n1, t3))
+
+# EXERCICIO 10 FEITO ########
+
+# n1 = float(input('digite o valor em reais: '))
+# d = n1 / 3.27
+# print('{} reais = {} dollares'.format(n1, d))
+
+# EXERCICIO 11 FEEITO #######
+
+# n1 = float(input('altura: '))
+# n2 = float(input('largura: '))
+# a = n1 * n2
+# t = a / 2
+# print('voce usara {} litros de tintas para pintar a area de {} dessa parede'.format(t, a))
+
+# EXERCICIO 12 FEITO ######
+
+# n1 = float(input('um valor: '))
+# d = n1 *(5/100)
+# v = n1 - d
+# print('o {} com 5 porcento de desconto saira por {}'.format(n1, v))
+
+# EXERCICIO 13 FEITO #########
+
+#n1 = float(input('um valor: '))
+#d = n1 *(15/100)
+#v = n1 + d
+#print('o salario de {} ficara {} com 15 de aumento'.format(n1, v))
 
 
+ 
