@@ -59,10 +59,22 @@
 
 # EXERCICIO 13 FEITO #########
 
-#n1 = float(input('um valor: '))
-#d = n1 *(15/100)
-#v = n1 + d
-#print('o salario de {} ficara {} com 15 de aumento'.format(n1, v))
+# n1 = float(input('um valor: '))
+# d = n1 *(15/100)
+# v = n1 + d
+# print('o salario de {} ficara {} com 15 de aumento'.format(n1, v))
 
+# EXERCICIO 14 FEITO ######
 
- 
+# gc = float(input('quantos gruaus:'))
+# f = (gc * 1.8) + 32
+# print('{} graus em firehinters fica {}'.format(gc,f))
+
+# EXERCICIO 15 FEITO ######
+
+# dia = float(input('quantos dias aligados?'))
+# km = float(input('qunatos km rodados?'))
+# d = dia*60
+# k = km*0.15
+# s = d + k
+# print('o total a pagar eh de {}'.format(s))
