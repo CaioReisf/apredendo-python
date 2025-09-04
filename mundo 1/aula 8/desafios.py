@@ -29,7 +29,7 @@
 # e = random.choice(lista)
 # print(e)
 
-# DESAFIO 20 FEITO ---------
+# DESAFIO 20 EM ABERTO --------- FEITO
 
 # import random
 # n1 = str( 'ana')
@@ -39,6 +39,15 @@
 # lista = [n1, n2, n3, n4]
 # random.shuffle(lista)
 # print(lista)
+
+# DESAFIO 21 EM ABERTO --------- FEITO
+
+# import pygame
+# pygame.init()
+# pygame.mixer.music.load('nome do arquivo')
+# pygame.mixer.music.play()
+# pygame.event.wait()
+
 
 
 
