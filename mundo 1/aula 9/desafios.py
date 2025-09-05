@@ -26,5 +26,19 @@
 # nome = str(input('digite seu nome:'))
 # print('silva' in nome)
 
+# DESAFIO 26 FEITO #####
+
+# frase = input('digite uma frase:')
+# print(frase.count('a'))
+# print(frase.find('a'))
+# print(frase.rfind('a'))
+
+# DESAFIO 27
+
+nome = input('digite seu nome:')
+di = nome.split()
+dii = nome.rsplit()
+print(di[0])
+print(dii[-1])
 
 
