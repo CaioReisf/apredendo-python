@@ -35,10 +35,10 @@
 
 # DESAFIO 27
 
-nome = input('digite seu nome:')
-di = nome.split()
-dii = nome.rsplit()
-print(di[0])
-print(dii[-1])
+# nome = input('digite seu nome:')
+# di = nome.split()
+# dii = nome.rsplit()
+# print(di[0])
+# print(dii[-1])
 
 
