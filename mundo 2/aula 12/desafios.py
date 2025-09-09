@@ -5,7 +5,7 @@
 # anos = float(input('quantos anos:'))
 # parcela = casa / anos
 # if (30*salario) / 100 < parcela:
-#    print('emprestimo NEGADO! voce na pode arcar com as parcelas') 
+#    print('emprestimo NEGADO! voce na pode arcar com as parcelas')
 # else:
 #    print(' emprestimo APROVADO! voce pagara {}R$ por mes durante {} anos'.format(parcela, anos))
 
@@ -61,8 +61,56 @@
 # elif idade > 20:
 #   print('com {} voce eh MASTER'.format(idade))
 
-# DESAFIO 42 
+# DESAFIO 42 FEITO #####
 
+# a = float(input('reta 1:'))
+# b = float(input('reta 2:'))
+# c = float(input('reta 3:'))
+# if a + b > c and a + c > b and b + c > a and a == b ==c:
+#    print('essas retas formam um triangulo EQUILATERO!')
+# elif a + b > c and a + c > b and b + c > a and (a == b or b == c or a ==c):
+#    print('essas retas NAO formam um triangulo ISOSCELES!')
+# elif a + b > c and a + c > b and b + c > a and a != b != c:
+#   print('essas retas NAO formam um triangulo ESCALENO!')
 
+# DESAFIO 43 FEITO #####
 
+# peso = float(input('seu peso:'))
+# altura = float(input('sua altura:'))
+# imc = peso / (altura*altura)
+# if imc < 18.5:
+#    print('IMC: {} - Abaixo do peso! '.format(imc))
+# elif imc < 25:
+#   print('IMC: {} - peso ideal!'.format(imc))
+# elif imc < 30:
+#    print('IMC: {} - sobrepeso!'.format(imc))
+# elif imc < 40:
+#    print('IMC: {} - obesidade!'.format(imc))
+# elif imc > 40:
+#    print('IMC: {} - obesidade morbida!'.format(imc))
 
+# DESAFIO 44
+
+preco = float(input('qual o preco?'))
+escolha = int(input(
+    'forma de pagamento: [1] Dinheiro/cheque'
+    '[2] Cartao 5%'
+    '[3] 2x cartao [4] 3x + cartao'
+    'QUAL A SUA ESCOLHA: '))
+if escolha == 1:
+    a1 = 10 / 100
+    a2 = preco*a1
+    a3 = preco - a2
+    print('o valor de R${} com o desconta de 10% no dinheiro fica R${}'.format(preco, a3))
+elif escolha == 2:
+    b1 = 5 / 100
+    b2 = preco*b1
+    b3 = preco - b2
+    print('o valor de R${} com o desconta de 5% no cartao fica R${}'.format(preco, b3))
+elif escolha == 3:
+    print('o valor ficara com o original de R${}'.format(preco))
+elif escolha == 4:
+    c1 = 20 / 100
+    c2 = preco*c1
+    c3 = preco - c2
+    print('o valor de R${} com o desconta de 20% no cartao R${}'.format(preco, c3))
