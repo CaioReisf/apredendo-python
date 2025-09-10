@@ -89,28 +89,40 @@
 # elif imc > 40:
 #    print('IMC: {} - obesidade morbida!'.format(imc))
 
-# DESAFIO 44
+# DESAFIO 44 FEITO ######
 
-preco = float(input('qual o preco?'))
-escolha = int(input(
-    'forma de pagamento: [1] Dinheiro/cheque'
-    '[2] Cartao 5%'
-    '[3] 2x cartao [4] 3x + cartao'
-    'QUAL A SUA ESCOLHA: '))
-if escolha == 1:
-    a1 = 10 / 100
-    a2 = preco*a1
-    a3 = preco - a2
-    print('o valor de R${} com o desconta de 10% no dinheiro fica R${}'.format(preco, a3))
-elif escolha == 2:
-    b1 = 5 / 100
-    b2 = preco*b1
-    b3 = preco - b2
-    print('o valor de R${} com o desconta de 5% no cartao fica R${}'.format(preco, b3))
-elif escolha == 3:
-    print('o valor ficara com o original de R${}'.format(preco))
-elif escolha == 4:
-    c1 = 20 / 100
-    c2 = preco*c1
-    c3 = preco - c2
-    print('o valor de R${} com o desconta de 20% no cartao R${}'.format(preco, c3))
+# preco = float(input('qual o preco?'))
+# escolha = int(input(
+#    'forma de pagamento: [1]Dinheiro/cheque'
+#    '[2] Cartao 5%'
+#    '[3] 2x cartao [4] 3x + cartao'
+#    'QUAL A SUA ESCOLHA: '))
+# if escolha == 1:
+#    a1 = 10 / 100
+#    a2 =preco*a1
+#    a3 = preco - a2
+#    print('o valor de R${} com o desconta de 10% no dinheiro fica R${}'.format(preco, a3))
+# elif escolha == 2:
+#    b1 = 5 / 100
+#    b2 = preco*b1
+#    b3 = preco - b2
+#    print('o valor de R${} com o desconta de 5% no cartao fica R${}'.format(preco, b3))
+# elif escolha == 3:
+#    print('o valor ficara com o original de R${}'.format(preco))
+# elif escolha == 4:
+#   c1 = 20 / 100
+#   c2 = preco*c1
+#   c3 = preco - c2
+#   print('o valor de R${} com o desconta de 20% no cartao R${}'.format(preco, c3))
+
+# DESAFIO 45
+
+import random
+escolha = str(input('ESCOLHA: Papel // Tesoura // Pedra: '))
+lista = 'papel', 'tesoura', 'pedra'
+jo = random.choice(lista)
+
+if jo == escolha:
+    print('empate')
+else:
+    print('nada')
