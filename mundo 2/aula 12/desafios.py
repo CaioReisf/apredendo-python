@@ -118,11 +118,6 @@
 # DESAFIO 45
 
 import random
-escolha = str(input('ESCOLHA: Papel // Tesoura // Pedra: '))
+escolha = int(input('ESCOLHA: [1] Papel // [2] Tesoura // [3] Pedra: '))
 lista = 'papel', 'tesoura', 'pedra'
 jo = random.choice(lista)
-
-if jo == escolha:
-    print('empate')
-else:
-    print('nada')
